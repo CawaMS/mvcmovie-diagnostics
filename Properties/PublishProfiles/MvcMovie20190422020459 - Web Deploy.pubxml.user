@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXEmdrRmBiEaR6CmrKJcF5wAAAAACAAAAAAADZgAAwAAAABAAAAA6VXzE4BCu+Llyd2BdcgNzAAAAAASAAACgAAAAEAAAAJJrqgmqUH1jgKkXHFlEnUmAAAAAfyTsRnJeZpidmwg+YLARW+PF8XyCYOrawThpV0oLoc9DthyQmK9FjvlpH9o2CqRZ+I22i0PaoaachOBhILwrrWKkgzolDqfQrEvwsZruv43hTMRdlb/iaEAmpa6X+UugMNy5cvxxVsqQDWoBFcGx/bxFNOL72NwTg03Z9qy154kUAAAAJb/zO1zXD/qzbhvpueQ6x9z3bvc=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:mvcmovie20190422020459dbserver.database.windows.net,1433%3bInitial Catalog=MvcMovie20190422020459_db%3bUser Id=dbuser%40mvcmovie20190422020459dbserver%3bPassword=test.1234567</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
